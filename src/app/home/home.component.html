@@ -1,0 +1,14 @@
+<!-- <p>home works!</p>
+<span style="margin-left: 20px;">{{responseData | json}}</span> -->
+<table border="1" class="cust">
+    <tr>
+        <td>id</td>
+        <td>title</td>
+        <td>userId</td>
+    </tr>
+    <tr *ngFor="let item of responseData">
+        <td >{{item.id}}</td>
+        <td >{{item.title}}</td>
+        <td >{{item.userId}}</td>
+    </tr>
+</table>

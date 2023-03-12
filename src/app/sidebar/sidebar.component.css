@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+    position: fixed;
+    margin-left: -5px;
+    width: 15%;
+    height: 100%;
+    background-color: lightblue;
+}
+#sidebar li{
+    text-decoration: none;
+    color: beige;
+    font-size: 10px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    list-style: none;
+    
+}
+.man a:hover{
+    color: #2b2626;
+}
+.toggel-btn{
+position: absolute;
+left: 120%;
+top: 0px;
+}
+.toggel-btn span{
+    display: block;
+    color: black;
+    width: 30px;
+    height: 5px;
+}
+.ab{
+    text-decoration: none;
+}

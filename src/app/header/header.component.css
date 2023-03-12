@@ -1,0 +1,15 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    margin-top: 0px;
+    width: 100%;
+    height: 75px;
+    padding: 0px 100px;
+    line-height: 75px;
+    position: fixed;
+    background-image: linear-gradient(skyblue,skyblue);
+} */

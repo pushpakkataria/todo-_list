@@ -1,0 +1,9 @@
+
+    <H1>Todo List</H1>
+    <input type="text" [(ngModel)]="task" id="float-input" pInputText>
+    <button pButton type="button" label="Click"  (click)="addtask(task)"></button>
+    <ul>
+       <li *ngFor="let item of list">{{item.name}} <button style="color: blue;" (click)="removetask(item.id)">Remove</button></li>
+    </ul>
+
+      
